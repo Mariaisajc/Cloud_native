@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I7xuQ3BWeaY=",
+  "dgSpecHash": "5hG1Ob5B+ns=",
   "success": true,
-  "projectFilePath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\Cloud_native\\docker-basic\\09-dockerize-projects\\DotNetApp\\DotNetApp.csproj",
+  "projectFilePath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\cloud_native\\09-dockerize-projects\\DotNetApp\\DotNetApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AMPARO CORREA\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "C:\\Users\\AMPARO CORREA\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yowhizw1CMc=",
+  "dgSpecHash": "7/ceqon1ft0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\Cloud_native\\docker-basic\\10-net9-remix-pg-env\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\cloud_native\\10-net9-remix-pg-env\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AMPARO CORREA\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\AMPARO CORREA\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",

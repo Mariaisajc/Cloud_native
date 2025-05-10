@@ -3239,11 +3239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\Cloud_native\\docker-basic\\10-net9-remix-pg-env\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\cloud_native\\10-net9-remix-pg-env\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\Cloud_native\\docker-basic\\10-net9-remix-pg-env\\Backend\\Backend.csproj",
+      "projectPath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\cloud_native\\10-net9-remix-pg-env\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\AMPARO CORREA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\Cloud_native\\docker-basic\\10-net9-remix-pg-env\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\cloud_native\\10-net9-remix-pg-env\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -81,11 +81,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\Cloud_native\\docker-basic\\09-dockerize-projects\\DotNetApp\\DotNetApp.csproj",
+      "projectUniqueName": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\cloud_native\\09-dockerize-projects\\DotNetApp\\DotNetApp.csproj",
       "projectName": "DotNetApp",
-      "projectPath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\Cloud_native\\docker-basic\\09-dockerize-projects\\DotNetApp\\DotNetApp.csproj",
+      "projectPath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\cloud_native\\09-dockerize-projects\\DotNetApp\\DotNetApp.csproj",
       "packagesPath": "C:\\Users\\AMPARO CORREA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\Cloud_native\\docker-basic\\09-dockerize-projects\\DotNetApp\\obj\\",
+      "outputPath": "C:\\Users\\AMPARO CORREA\\Desktop\\Aztro Nodo\\CLOUD NATIVE\\cloud_native\\09-dockerize-projects\\DotNetApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
