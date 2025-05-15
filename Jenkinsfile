@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image
-                    sh 'docker build -t my-remix-app .'
+                    bat 'docker build -t my-remix-app .'
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     // Run tests inside the Docker container
-                    sh 'docker run --rm my-remix-app npm test'
+                    bat 'docker run --rm my-remix-app npm test'
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Deploy the Docker container to your server
-                    sh 'docker run -d -p 3000:3000 my-remix-app'
+                    bat 'docker run -d -p 3000:3000 my-remix-app'
                 }
             }
         }
@@ -33,7 +33,7 @@ pipeline {
     post {
         always {
             // Clean up Docker images and containers
-            sh 'docker system prune -f'
+            bat 'docker system prune -f'
         }
     }
 }
