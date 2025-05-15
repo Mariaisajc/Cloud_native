@@ -2,38 +2,41 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Install Dependencies') {
             steps {
-                script {
-                    // Build the Docker image
-                    echo 'docker build -t my-remix-app .'
-                }
+                // Instala las dependencias con npm
+                sh 'npm install'
             }
         }
 
         stage('Test') {
             steps {
-                script {
-                    // Run tests inside the Docker container
-                    echo 'docker run --rm my-remix-app npm test'
-                }
+                // Ejecuta los tests
+                sh 'npm test'
             }
         }
 
-        stage('Deploy') {
+        stage('Build') {
             steps {
-                script {
-                    // Deploy the Docker container to your server
-                    echo 'docker run -d -p 3000:3000 my-remix-app'
-                }
+                // Compila o construye el proyecto si aplica
+                sh 'npm run build'
+            }
+        }
+
+        stage('Run App (Optional)') {
+            when {
+                expression { return false } // Cambia a true si quieres ejecutar localmente
+            }
+            steps {
+                // Ejecuta la app localmente (solo si es necesario y seguro)
+                sh 'npm start'
             }
         }
     }
 
     post {
         always {
-            // Clean up Docker images and containers
-            echo 'docker system prune -f'
+            echo 'Pipeline terminado.'
         }
     }
 }
