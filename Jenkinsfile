@@ -4,22 +4,19 @@ pipeline {
     stages {
         stage('Install Dependencies') {
             steps {
-                // Instala las dependencias con npm
-                sh 'npm install'
+                bat 'npm install'
             }
         }
 
         stage('Test') {
             steps {
-                // Ejecuta los tests
-                sh 'npm test'
+                bat 'npm test'
             }
         }
 
         stage('Build') {
             steps {
-                // Compila o construye el proyecto si aplica
-                sh 'npm run build'
+                bat 'npm run build'
             }
         }
 
@@ -28,8 +25,7 @@ pipeline {
                 expression { return false } // Cambia a true si quieres ejecutar localmente
             }
             steps {
-                // Ejecuta la app localmente (solo si es necesario y seguro)
-                sh 'npm start'
+                bat 'npm start'
             }
         }
     }
